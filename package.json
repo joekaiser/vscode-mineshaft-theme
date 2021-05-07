@@ -1,0 +1,21 @@
+{
+    "name": "mineshaft",
+    "displayName": "Mineshaft",
+    "description": "A dark theme to bring focus on your code and not the IDE",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mineshaft",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mineshaft-color-theme.json"
+            }
+        ]
+    }
+}
